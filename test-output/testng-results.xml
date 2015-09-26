@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12820" started-at="2015-09-26T10:15:14Z" finished-at="2015-09-26T10:15:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12820" started-at="2015-09-26T10:15:14Z" finished-at="2015-09-26T10:15:27Z">
+      <class name="com.MG.testcases.testPostingSmoke">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.MG.testcases.testPostingSmoke@75412c2f]" name="setUp" is-config="true" duration-ms="4644" started-at="2015-09-26T15:45:15Z" finished-at="2015-09-26T15:45:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tcposting02()[pri:0, instance:com.MG.testcases.testPostingSmoke@75412c2f]" name="tcposting02" duration-ms="7330" started-at="2015-09-26T15:45:19Z" finished-at="2015-09-26T15:45:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tcposting02 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.MG.testcases.testPostingSmoke@75412c2f]" name="tearDown" is-config="true" duration-ms="831" started-at="2015-09-26T15:45:26Z" finished-at="2015-09-26T15:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.MG.testcases.testPostingSmoke -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
