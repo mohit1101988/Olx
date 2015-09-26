@@ -7,5 +7,6 @@
 	<classpathentry kind="lib" path="C:/Mohit/framework jars/Appium Jars/java-client-3.2.0.jar"/>
 	<classpathentry kind="lib" path="C:/Mohit/framework jars/selenium-server-standalone-2.47.1.jar"/>
 	<classpathentry kind="lib" path="C:/Mohit/framework jars/mysql-connector-java-5.0.8/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Mohit/framework jars/log4j-1.2.14.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

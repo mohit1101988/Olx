@@ -46,7 +46,8 @@ public class testPostingSmoke {
 	@Test(priority = 1)
 	public void tcposting02() throws IOException, InterruptedException{
 		
-			
+			//purpose : Enter Submit screen and return back 
+
 			driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'Submit a Free Ad')]")).click();
 			driver.pressKeyCode(AndroidKeyCode.BACK);
 			

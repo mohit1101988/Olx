@@ -48,6 +48,8 @@ public static AndroidDriver driver;
 	@Test(priority = 1)
 	public void tchome01() throws IOException, InterruptedException{
 				
+		//Purpose: launch and exit app
+
 				Thread.sleep(3000);
 				
 				String filename = "C:\\Mohit\\Java Workspaces\\OLX\\ResultImages\\Home\\tchome01.jpg";
@@ -58,7 +60,8 @@ public static AndroidDriver driver;
 	@Test(priority = 2)
 	public void tchome02() throws IOException, InterruptedException{
 				
-				
+		//Purpose: Open settings menu
+		
 				
 				driver.findElement(By.id("com.olx.southasia.hackathon:id/action_bar")).findElement(By.className("android.widget.ImageButton")).click();
 				Thread.sleep(3000);
@@ -71,7 +74,8 @@ public static AndroidDriver driver;
 	@Test(priority = 3)
 	public void tchome03() throws IOException, InterruptedException{
 				
-				
+		//Purpose: Get app version info
+
 				
 		driver.findElement(By.id("com.olx.southasia.hackathon:id/action_bar")).findElement(By.className("android.widget.ImageButton")).click();
 		WebElement bar1 = driver.findElement(By.id("com.olx.southasia.hackathon:id/navigation_drawer"));

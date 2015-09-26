@@ -47,7 +47,9 @@ public class testHomeRegression {
 
 	@Test(priority = 1)
 	public void tchome04() throws IOException, InterruptedException{
-				
+		
+		//purpose : Change City in home screen
+
 		driver.findElement(By.id("com.olx.southasia.hackathon:id/location_picker")).click();
 		WebElement bar3 = driver.findElement(By.id("com.olx.southasia.hackathon:id/list"));
 		List<WebElement> bar4 = bar3.findElements(By.className("android.widget.LinearLayout"));
@@ -65,7 +67,7 @@ public class testHomeRegression {
 	@Test(priority = 2)
 	public void tchome05() throws IOException, InterruptedException{
 				
-				
+		//purpose: view chats for 0 messages scenario		
 				
 		driver.findElement(By.id("com.olx.southasia.hackathon:id/chatCounterPanel")).click();
 		String ActualMessage = driver.findElement(By.id("com.olx.southasia.hackathon:id/txtMessage")).getText();		

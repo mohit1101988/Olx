@@ -45,6 +45,9 @@ public class testPostingPerformance {
 	
 	@Test(priority = 1)
 	public void tcposting01() throws IOException, InterruptedException{
+		
+		//purpose Enter Submit screen and return back - 5 times
+
 		for (int i = 0; i < 5; i++) {
 			
 			driver.findElement(By.xpath("//android.widget.TextView[contains(@text,'Submit a Free Ad')]")).click();

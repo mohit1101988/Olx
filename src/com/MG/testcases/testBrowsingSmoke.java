@@ -16,9 +16,9 @@ import org.testng.annotations.Test;
 
 import io.appium.java_client.android.AndroidDriver;
 
-public class testHomePerformance {
+public class testBrowsingSmoke {
 
-	public static AndroidDriver driver;
+public static AndroidDriver driver;
 	
 	@BeforeMethod
 	public void setUp() throws MalformedURLException{
@@ -42,10 +42,8 @@ public class testHomePerformance {
 	}
 
 	@Test(priority = 1)
-	public void tchome06() throws IOException, InterruptedException{
+	public void tchome01() throws IOException, InterruptedException{
 				
-		
-		//purpose: Launch app and exit app 20 times
 
 	}
 }
