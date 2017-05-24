@@ -81,7 +81,8 @@ public static AndroidDriver driver;
 		WebElement bar1 = driver.findElement(By.id("com.olx.southasia.hackathon:id/navigation_drawer"));
 		
 		List<WebElement> bar2 = bar1.findElements(By.className("android.widget.LinearLayout"));
-		bar2.get(13).click();
+		System.out.println(bar2.size());
+		bar2.get(11).click();
 		
 		WebElement bar3 = driver.findElement(By.id("android:id/list"));
 		List<WebElement> bar4 = bar3.findElements(By.className("android.widget.LinearLayout"));
